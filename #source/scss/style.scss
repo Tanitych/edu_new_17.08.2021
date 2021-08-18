@@ -598,3 +598,14 @@ h2 {
     transform: scale(1.2);
   }
 }
+.modal_viedo_btn {
+  position: relative;
+  button {
+    position: absolute;
+    right: 10%;
+    bottom: -100px;
+  }
+}
+.modal-video-body {
+  height: 700px;
+}
