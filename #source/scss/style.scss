@@ -521,6 +521,13 @@ h2 {
   text-transform: uppercase;
   color: var(--blue);
 }
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 120%;
+  color: var(--blue);
+}
 @media (min-width: 3000px) {
   .section_1 {
     background-size: cover;
