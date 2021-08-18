@@ -13,15 +13,15 @@ $(window).resize(function () {
     adaptive_function2();
 });
 function adaptive_header2(w, h) {
-    var headerMenu2 = $('.lang_container');
-    var headerLang2 = $('.lang_dropdown');
+    var headerMenu2 = $('.adpt_lng');
+    var headerLang2 = $('.languages');
     if (w < 992) {
         if (!headerLang2.hasClass('done')) {
             headerLang2.addClass('done').appendTo(headerMenu2);
         }
     } else {
         if (headerLang2.hasClass('done')) {
-            headerLang2.removeClass('done').prependTo($('.lang'));
+            headerLang2.removeClass('done').prependTo($('.main_lng'));
         }
     }
 }
